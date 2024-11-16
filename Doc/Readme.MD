@@ -1,0 +1,7 @@
+Este documento presenta un análisis detallado de la base de datos 'Estimation of Obesity Levels Based On Eating Habits and Physical Condition', disponible en el repositorio de UC Irvine Machine Learning Repository. La base de datos fue donada el 26 de agosto de 2019 y contiene información relevante sobre los niveles de obesidad de las personas, basada en sus hábitos alimenticios y condiciones físicas.
+
+El análisis se desarrolló en dos etapas principales. En la primera, se realizó un análisis exploratorio y descriptivo para comprender la distribución de las variables, identificar posibles patrones y detectar valores atípicos. Esto permitió un mejor entendimiento de la estructura y la calidad de los datos.
+
+Posteriormente, se implementó un modelo de machine learning supervisado, diseñado para predecir los niveles de obesidad. Como paso intermedio, se aplicó una técnica de reducción dimensional utilizando Análisis de Componentes Principales (PCA), con el objetivo de disminuir la complejidad del conjunto de datos sin perder información relevante. Los datos transformados por PCA sirvieron como entrada para el modelo, mejorando su eficiencia y desempeño al eliminar redundancias y relaciones colineales entre las variables originales.
+
+Este enfoque garantiza un análisis robusto y una predicción precisa, aprovechando al máximo las características del conjunto de datos.
