@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "obesidad"
+version = "0.1.0"
+description = ""
+authors = ["Elias Lozano <juelloco2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10 <3.13"
+pandas = "^2.2.3"
+numpy = "1.26.4"
+scipy = "^1.14.1"
+matplotlib = "^3.9.2"
+plotly = "^5.24.1"
+scikit-learn = "^1.5.2"
+ucimlrepo = "^0.0.7"
+seaborn = "^0.13.2"
+scikit-learn-extra = "^0.3.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
